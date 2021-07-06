@@ -51,9 +51,4 @@ EOF
   policy_arn = aws_iam_policy.policy.arn
 }
   
-module "aws_mfa" {
-  source = "trussworks/mfa/aws"
 
-  
-  iam_users  = ["bob"]
-}
