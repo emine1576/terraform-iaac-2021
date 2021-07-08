@@ -35,3 +35,4 @@ resource "aws_security_group" "sec" {
     Name = "allow_tls"
   }
 }
+
